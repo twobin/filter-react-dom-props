@@ -1,7 +1,7 @@
 {
   "name": "filter-react-dom-props",
-  "version": "0.0.1",
-  "description": "filter invalid DOM props",
+  "version": "0.0.2",
+  "description": "filter react invalid dom props",
   "main": "lib/index.js",
   "scripts": {
     "dev": "babel src --out-dir lib -w",
@@ -23,7 +23,8 @@
     "react",
     "invalid props",
     "invalid dom props",
-    "filter props"
+    "filter props",
+    "dom props"
   ],
   "repository": {
     "type": "git",

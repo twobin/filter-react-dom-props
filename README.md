@@ -17,7 +17,7 @@ $ npm i -S filter-react-dom-props
 ### filter-react-dom-props
 
 ```
-import { filterReactDomProps } from 'filter-react-dom-props';
+import filterReactDomProps from 'filter-react-dom-props';
 
 return <div {...filterReactDomProps(this.props)}></div>;
 ```
