@@ -1,0 +1,45 @@
+{
+  "name": "filter-react-dom-props",
+  "version": "0.0.1",
+  "description": "filter invalid DOM props",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "babel src --out-dir lib -w",
+    "build": "babel src --out-dir lib",
+    "test": "mocha --check-leaks --compilers js:babel-core/register",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "mocha": "^2.5.3"
+  },
+  "keywords": [
+    "react",
+    "invalid props",
+    "invalid dom props",
+    "filter props"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twobin/filter-react-dom-props.git"
+  },
+  "author": "twobin",
+  "bugs": {
+    "url": "https://github.com/twobin/filter-react-dom-props/issues"
+  },
+  "homepage": "https://github.com/twobin/filter-react-dom-props",
+  "dependencies": {
+  },
+  "files": [
+    "src",
+    "lib",
+    "*.md"
+  ],
+  "license": "ISC"
+}
