@@ -138,7 +138,7 @@ const DOMProps = [
   "onKeyUp",
   "onFocus",
   "onBlur",
-  "onChange":  "onChange",
+  "onChange",
   "onInput",
   "onSubmit",
   "onClick",
